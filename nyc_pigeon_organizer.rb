@@ -9,7 +9,8 @@ def nyc_pigeon_organizer(data)
       
       names.each do |name|
         final_hash[name] = {}
-      
+        
+        final_hash.push[key]
         
       end
     end
