@@ -7,9 +7,9 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names|
       names.each do |name|
         final_hash[name] = {}
-        binding.pry
+        #binding.pry
       end
-    #binding.pry
+    binding.pry
     end
   end
   final_hash
