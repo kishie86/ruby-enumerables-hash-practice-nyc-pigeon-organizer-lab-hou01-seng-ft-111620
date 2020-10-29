@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
         final_hash[name] = {}
       
         
-        
       end
     end
   end
