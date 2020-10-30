@@ -16,6 +16,7 @@ def nyc_pigeon_organizer(data)
           end
         
       binding.pry
+      final_hash[name][key].push(inner_key)
         
       end
     end
