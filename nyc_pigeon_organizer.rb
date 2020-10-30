@@ -6,13 +6,12 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
    # binding.pry
     value.each do |inner_key, names|
-      #binding.pry
       names.each do |name|
-        #binding.pry
+        if !final_hash[name]
         final_hash[name] = {}
-        
-        
-        
+        end
+        if !final_hash[value]
+          final_hash[value] =
       end
     end
   end
