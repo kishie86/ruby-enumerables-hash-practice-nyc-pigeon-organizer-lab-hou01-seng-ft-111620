@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
         if !final_hash[name]
         final_hash[name] = {}
         end
-        if !final_hash[name][value]
-          !final_hash[name][value] = []
-        end
+        #if !final_hash[name][value]
+         # !final_hash[name][value] = []
+        #end
       end
     end
   end
